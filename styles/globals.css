@@ -1,3 +1,4 @@
+
 html,
 body {
   padding: 0;
@@ -77,4 +78,29 @@ a {
   filter: drop-shadow(21px 40px 91px rgba(0, 0, 0, 0.25));
   border-radius: 205px;
   background-color: azure;
+}
+
+.main-title {
+  background: linear-gradient(250.5deg, #6DC1DC 18.1%, #A690FC 35.14%, #FC96BB 65.36%, #FFC397 97.34%), #3772FF;
+  -webkit-background-clip: text;
+  color: transparent
+}
+
+
+/* ./styles/globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import '~antd/dist/antd.css';
+
+.ant-steps-item-content .ant-steps-item-title {
+  color: #eee !important;
+  font-weight: 700;
+  color: #1890ff !important;
+  cursor: pointer;
+}
+
+.ant-steps-item-content .ant-steps-item-description {
+  color: #eee !important;
 }
