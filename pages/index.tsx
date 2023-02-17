@@ -21,10 +21,10 @@ const Web3: NextPage = () => {
         walletAddress: add,
         advertisementId: id
       }).then(() => {
-        window.open('https://app.admeta.network/ad-display?rd=23nqw343', '_blank')
+        window.open('https://app.testnet.admeta.network/ad-display?rd=23nqw343', '_blank')
       })
     } else {
-      window.open('https://app.admeta.network/ad-display?rd=23nqw343', '_blank')
+      window.open('https://app.testnet.admeta.network/ad-display?rd=23nqw343', '_blank')
     }
   }
 
